@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .class_card {
+            width: 500px;
+            height: fit-content;
+            border: 3px solid;
+            color: black;
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin: 15px;
+        }
+
+        .img {
+            width: 100px;
+            border-radius: 50%;
+            margin: 15px;
+        }
+
+        .img img {
+            width: 125px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin: auto;
+        }
+
+        .text {
+            margin-left: 25px;
+            font-size: 20px;
+        }
+
+        .text i {
+            color: red;
+            cursor: pointer;
+        }
+        .text a {
+            text-decoration: none;
+        }
+        #azul i {
+            color: blue;
+        }
+
+        #morango.innerHTML {
+            flex-direction: column;
+            display: flex;
+        }
+        #morango.innerHTML h1 {
+            color: red;
+            margin-left: 50px;
+            
+        }
+
+    </style>
+    <title>css</title>
+</head>
+
+<body>
+
+    <!-- Arquivo 2 -->
+
+    <div class="class_card">
+
+        <div class="img">
+            <img src="alice.png">
+        </div>
+
+        <div class="text">
+            <h1> <span>Meu nome é: Adriana</span> </h1>
+            <p> <span>Mensagem: <a href="javascript:Morango()"> <i> a vida não é morango </i> </a> </span> </p>
+        </div>
+    </div>
+
+
+    <div class="class_card">
+
+        <div class="img">
+            <img src="arthur.png">
+        </div>
+
+        <div class="text" id="azul">
+            <h1> <span>Meu nome é: Arthur</span> </h1>
+            <p> <span>Mensagem: <i> a vida é boa d+ </i></span> </p>
+        </div>
+    </div>
+
+    <div id="morango">
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    function Morango() {
+        morango.innerHTML = ` 
+        <h1> MORANGAO!!! </h1> <br> <br>
+        <img src="morango.jpg"> 
+        `
+    }
+</script>

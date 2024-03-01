@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>css</title>
+</head>
+
+<body>
+
+    <!-- Arquivo 2 -->
+
+    <div class="class_card">
+
+        <div class="img">
+            <img src="alice.png">
+        </div>
+
+        <div class="text">
+            <h1> <span>Meu nome é: Adriana</span> </h1>
+            <p> <span>Mensagem: <a href="javascript:Morango()"> <i> a vida não é morango </i> </a> </span> </p>
+        </div>
+    </div>
+
+
+    <div class="class_card">
+
+        <div class="img">
+            <img src="arthur.png">
+        </div>
+
+        <div class="text" id="azul">
+            <h1> <span>Meu nome é: Arthur</span> </h1>
+            <p> <span>Mensagem: <i> a vida é boa d+ </i></span> </p>
+        </div>
+    </div>
+
+    <div id="morango">
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    function Morango() {
+        morango.innerHTML = ` 
+        <h1 style="color: red; margin-left: 150px"> MORANGAO!!! </h1> <br> <br>
+        <img src="morango.jpg"> 
+        `
+    }
+</script>

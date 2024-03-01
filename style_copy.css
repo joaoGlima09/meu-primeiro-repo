@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.class_card {
+    width: 500px;
+    height: fit-content;
+    border: 3px solid;
+    color: black;
+    border-radius: 25px;
+    background-color: aliceblue;
+    margin: 15px;
+}
+
+.img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: auto;
+}
+
+.text {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.text i {
+    color: red;
+    cursor: pointer;
+    transition: .5s rgb(131, 32, 32);
+}
+
+.text a {
+    text-decoration: none;
+}
+
+#azul i {
+    color: blue;
+}
+
+#morango {
+    display: block;
+    flex-direction: column;
+}
